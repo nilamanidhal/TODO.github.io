@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+    body{
+        background-color: rgb(150, 168, 168);
+    }
+   .input_box{
+    width:20%;
+    border-radius: 10px;
+    font-size: 20px; 
+    font-weight:bold;
+}
+   #add_button{
+    margin-left: 10px; 
+    border-radius: 10px;
+    font-size: 20px; 
+    font-weight:bold;
+    color:rgb(255, 87, 26)
+}
+   .container{
+    display:flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+   .input_container{padding:20px;
+    padding-left: 35px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+   .input_container input{
+    padding:15px;
+    border:none;
+    outline: none;
+}
+   input{
+    border-radius: 3px;
+}
+   #add_button:hover{
+    background-color: rgb(116, 133, 116);
+}
+   #add_button:active{
+    background-color: rgb(61, 144, 61);
+}
+   ul{
+    width:40%;
+}
+   li{list-style-type: none;
+    cursor: pointer;
+    border:0.125px solid rgb(138, 129, 129);
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin:8px;
+    background-color: rgb(221, 230, 238);
+    display: flex;
+    justify-content: space-between;
+    border:none;outline:none;
+}
+p{
+    flex-grow: 1;
+    font-size: 18px;
+    font-weight: bold;
+} 
+.deleteb{
+    padding:2px;
+    border:none;
+    outline:none;
+    margin-right: 1.5px;
+    background-color: rgb(221, 230, 238);
+    color: rgb(239, 0, 0);
+    font-size: 15px;
+    font-weight:bold;
+}
+.edit{padding:2px;
+    border:none;
+    outline:none;
+    background-color: rgb(221, 230, 238);
+    color:rgb(0, 156, 0);
+    font-size: 15px;
+    font-weight:bold;
+}
